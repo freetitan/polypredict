@@ -34,7 +34,6 @@ next-env.d.ts
 
 # npm config
 .npmrc
-package-lock.json
 
 # temp files
 dev_error.txt
