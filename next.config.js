@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
+  basePath: '/polypredict',
   images: {
     unoptimized: true,
   },
