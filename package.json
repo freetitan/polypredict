@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy:cloudflare": "npm run build && wrangler pages deploy out --project-name=polypredict",
+    "preview": "wrangler pages dev out"
   },
   "dependencies": {
     "clsx": "^2.0.0",
